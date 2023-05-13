@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- ---------------------HEADER--------------------- -->
+    <header>
+        <div>
+            <h1 class="logo"><img src="img/products/logo.png" alt="" style="width: 108px; mix-blend-mode: multiply;"></h1>
+        </div>
+        <form action="" class="searchbox">
+            <input type="text" placeholder="buscar...">
+            <button type="submit"><i class="material-icons">search</i></button>
+        </form>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ---------------------MAIN--------------------- -->
+    <div class="main">
+        <div class="background"></div>
+        <!-- ---------------------SPONSORED--------------------- -->
+        <div class="sponsored">
+            <!-- ---------------------IMAGE--------------------- -->
+            <div class="product">
+                <figure>
+                    <img src="img/products/prod1.png" alt="" style="width:25rem;">
+                </figure>
+            </div>
+            <!-- ---------------------INFO--------------------- -->
+            <div class="prod-info">
+                <div class="prod-info-container">
+                    <h3 class="prod-name">Padded Colorful Soft Chair</h3>
+                    <h4 class="prod-description">A comfortable and modern upholstered chair in pastel colors to decorate
+                        your living room and give it an air of modernity and minimalism.</h4>
+                </div>
+                <button class="prod-btn">Learn More <i class="material-icons">arrow_forward</i> </button>
+            </div>
+        </div>
+
+        <!-- ---------------------SEMELHANT CARDS--------------------- -->
+        <div class="relationed">
+            <div class="rel-header">
+                <h2 class="relationed-title">Related Products</h2>
+                <div class="navigate">
+                    <button class="prev-btn" onclick="scrollB('seme')">
+                        <i class="material-icons">arrow_back_ios</i>
+                    </button>
+                    <button class="next-btn" onclick="scrollF('seme')">
+                        <i class="material-icons">arrow_forward_ios</i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="semelhant" dir="ltr" id="seme">
+                <!-- ---------------------CARD 1--------------------- -->
+                <section class="card-product" id="card1">
+                    <figure>
+                        <img src="img/products/prod2.png" alt="" style="width:15rem;">
+                    </figure>
+                    <div class="card-info">
+                        <p class="prod-name">Padded Colorful Soft Chair</p>
+                        <p class="prod-description">A comfortable and modern upholstered chair in pastel green color to
+                            decorate your living room and give it an air of modernity and minimalism.</p>
+                    </div>
+                    <button class="card-prod-btn">Learn More</button>
+                </section>
+
+                <!-- ---------------------CARD 2--------------------- -->
+                <section class="card-product" id="card2">
+                    <figure>
+                        <img src="img/products/prod3.png" alt="" style="width:15rem;">
+                    </figure>
+                    <div class="card-info">
+                        <p class="prod-name">Padded Colorful Soft Chair</p>
+                        <p class="prod-description">A comfortable and modern upholstered chair in pastel green color to
+                            decorate your living room and give it an air of modernity and minimalism.</p>
+                    </div>
+                    <button class="card-prod-btn">Learn More</button>
+                </section>
+
+                <!-- ---------------------CARD 3--------------------- -->
+                <section class="card-product" id="card3">
+                    <figure>
+                        <img src="img/products/prod4.png" alt="" style="width:15rem;">
+                    </figure>
+                    <div class="card-info">
+                        <p class="prod-name">Padded Colorful Soft Chair</p>
+                        <p class="prod-description">A comfortable and modern upholstered chair in pastel green color to
+                            decorate your living room and give it an air of modernity and minimalism.</p>
+                    </div>
+                    <button class="card-prod-btn">Learn More</button>
+                </section>
+
+                <!-- ---------------------CARD 4--------------------- -->
+                <section class="card-product" id="card4">
+                    <figure>
+                        <img src="img/products/prod2.png" alt="" style="width:15rem;">
+                    </figure>
+                    <div class="card-info">
+                        <p class="prod-name">Padded Colorful Soft Chair</p>
+                        <p class="prod-description">A comfortable and modern upholstered chair in pastel green color to
+                            decorate your living room and give it an air of modernity and minimalism.</p>
+                    </div>
+                    <button class="card-prod-btn">Learn More</button>
+                </section>
+
+                <!-- ---------------------CARD 5--------------------- -->
+                <section class="card-product" id="card5">
+                    <figure>
+                        <img src="img/products/prod4.png" alt="" style="width:15rem;">
+                    </figure>
+                    <div class="card-info">
+                        <p class="prod-name">Padded Colorful Soft Chair</p>
+                        <p class="prod-description">A comfortable and modern upholstered chair in pastel green color to
+                            decorate your living room and give it an air of modernity and minimalism.</p>
+                    </div>
+                    <button class="card-prod-btn">Learn More</button>
+                </section>
+
+                <!-- ---------------------CARD 6--------------------- -->
+                <section class="card-product" id="card6">
+                    <figure>
+                        <img src="img/products/prod3.png" alt="" style="width:15rem;">
+                    </figure>
+                    <div class="card-info">
+                        <p class="prod-name">Padded Colorful Soft Chair</p>
+                        <p class="prod-description">A comfortable and modern upholstered chair in pastel green color to
+                            decorate your living room and give it an air of modernity and minimalism.</p>
+                    </div>
+                    <button class="card-prod-btn">Learn More</button>
+                </section>
+            </div>
+        </div>
+
+        <footer>
+            <div>
+                <h1>FOOTER</h1>
+            </div>
+        </footer>
+</body>
+
+</html>
